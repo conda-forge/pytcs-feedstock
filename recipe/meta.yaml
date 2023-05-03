@@ -24,7 +24,7 @@ requirements:
     - python >=3.8
     - bidict
     - numpy
-    - pandas >=1.2
+    - pandas >=1.4
     - xarray >=0.15
     - pint >=0.18
     - bottleneck >=1.3
