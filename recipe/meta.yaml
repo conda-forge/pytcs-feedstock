@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - setuptools >=48
     - setuptools-scm >=6.2
     - pip
   run:
-    - python >=3.8
+    - python >=3.9
     - bidict
     - numpy
     - pandas >=1.4
