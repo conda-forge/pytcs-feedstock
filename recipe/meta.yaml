@@ -1,5 +1,5 @@
 {% set name = "pytcs" %}
-{% set version = "0.1.7" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytcs-{{ version }}.tar.gz
-  sha256: 6b8ac640c1fabdbaf2c84defe4c268cea0258824a547f41bbb5bfea221134f12
+  sha256: 8be7dfa7fb817a45fd109ba517c1523a7cecbe190a6afa39820cd0744e077a7c
 
 build:
   noarch: python
